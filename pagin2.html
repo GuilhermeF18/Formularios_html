@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Atividade Formulário</title>
+</head>
+
+<body bgcolor="gold">
+
+    <table width="800" align="center">
+
+        <h2 align="center"> Cadastro Login e Senha:</h2>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend> Informe seus dados para cadastro na plataforma:</legend>
+                    <form action="enviar.php" method="post" name="cadastro">
+                        <table cellpadding="5" cellspacing="3" align="center">
+
+                            <tr>
+
+                                <td><label> Email:</label></td>
+                                <td><input type="mail" id="email" name="emai" maxlength="8"
+                                        placeholder="Digite o seu email:" required /></td>
+                            </tr>
+
+                            <tr>
+
+                                <td><label> Senha:</label></td>
+                                <td><input type="password" id="senha" name="senha" maxlength="8"
+                                        placeholder="Digite sua Senha" required /></td>
+                            </tr>
+
+                            <td><label> Confirme sua Senha:</label></td>
+                            <td><input type="password" id="senha" name="senha" maxlength="8"
+                                    placeholder="Digite sua Senha" required /></td>
+        </tr>
+
+        <td><label> Concordo com os Termos e Serviços <label></td>
+        <td><input type="checkbox" id="Concordo" name="Concordo" value="Concordo" checked disabled /></td>
+        </tr>
+
+
+        <th colspan="2">
+            <input type="submit" id="enviar" name="enviar" value="ENVIAR DADOS" />
+            <input type="reset" id="limpar" name="limpar" value="LIMPAR" />
+        </th>
+
+
+
+    </table>
+    </form>
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+
+    <br>
+    <br>
+    <p align="right"><a href="atv01.html">
+            <button>Página Anterior</button>
+        </a>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
